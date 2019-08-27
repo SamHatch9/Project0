@@ -1,0 +1,58 @@
+.youtube, .tv, .sports {
+  border: 2px solid black;
+  margin: 1.5%;
+  padding: 1%;
+}
+
+.sports {
+  color: forestgreen;
+  background-color: lightgreen;
+}
+
+.tv {
+  color: navy;
+  background-color: skyblue;
+}
+
+.youtube {
+  color: red;
+  background-color: white;
+}
+
+div h1 {
+  background-color: #e0f7ff;
+  color: #46709a;
+  margin: 0%;
+  padding: 1%;
+}
+div p {
+  margin: 5px;
+  padding: 1px;
+  background-color: 90cdc3;
+  color: #46709a;
+  border: 1pt solid #46709a;
+}
+div div h3 {
+  margin: 10px;
+  padding: 5px;
+  border: 2pt solid black;
+}
+div div h5 {
+  margin-left: 30px;
+  margin-bottom: 2px;
+  padding: 5px;
+}
+div div p {
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding: 1px;
+  background-color: white;
+  color: black;
+  border: 0pt solid black;
+}
+div div div {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=interests.css.map */

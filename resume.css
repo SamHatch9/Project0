@@ -1,0 +1,158 @@
+.pageTitle {
+    padding: 10px;
+    background-color:#e0f7ff;
+}
+
+.resumePDF {
+    margin: 0px;
+    padding: 10px;
+    background-color:#30302e;
+    margin-top: -15px;
+}
+
+.fullname{
+    text-align:center;
+}
+
+@media(min-width:650px){
+    #resumeHeader, #resumeSkills, #resumeEducation, #resumeWorkExperience {
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .resumeTableTitle{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    body > div{
+        margin-right:5%;
+        margin-left:5%;
+        margin-top:2.5%;
+        margin-bottom:2.5%;
+    }
+
+    #fullname{
+        font-size: 60px;
+    }
+
+    .resumeHeader{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:649px){
+    #resumeHeader, #resumeSkills, #resumeEducation, #resumeWorkExperience {
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        width: 95%;
+        margin-bottom:5px;
+    }
+
+    .resumeTableTitle{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #fullname{
+        font-size:18px;
+    }
+
+    .resumeHeader{
+        font-size: 14px;
+        margin-top:3px;
+    }
+
+    body > div{
+        margin-right:5%;
+        margin-left:5%;
+        margin-top:2.5%;
+        margin-bottom:2.5%;
+    }
+}
+
+#resumeHeader, #resumeSkills, #resumeEducation, #resumeWorkExperience {
+    margin-top: 0px;
+    font: Courier;
+    font-size: 24px;
+    text-align: Left;
+}
+
+p::first-letter{
+    letter-spacing:1px;
+    font-size:150%;
+    border-width:1px;
+    border-style:solid;
+    border-spacing:1px;
+    border-radius:12px 4px;
+    border-color:#30302e;
+    background-color:#46709a;
+    color:white;
+    padding:5px;
+    align:center;
+    font-family:monospace;
+}
+
+#resumeHeader {
+    background-color:#30302e;
+    color: white;
+}
+
+#resumeSkills {
+    table-layout: fixed;
+    font-size: 18px;
+}
+
+body > div {
+    border:1px solid #5d84a9;
+}
+
+table + hr {
+    height:2px;
+    background-color:#5d84a9;
+    align:center;
+    width:80%;
+    opacity:0.5;
+}
+
+table + hr:first-of-type {
+    opacity:0;
+}
+
+td hr {
+    height:1px;
+    background-color:#5d84a9;
+    align:center;
+    width:70%;
+    opacity:0.2;
+}
+
+a:visited{
+    color:white;
+}
+
+.resumeTableTitle{
+    font: Courier;
+    font-size: 32px;
+    text-align: Left;
+    font-weight: bold;
+}
+
+.resumeWorkTitle, .resumeDegree {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.resumeDates {
+    text-align: Right;
+}
+
+ul {
+    font-size: 16px;
+}
+
+td, th {
+    padding: 5px;
+    height: 40px;
+}

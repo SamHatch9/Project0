@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Project 0 - Sam Hatch's Website</title>
+
+        <link rel="stylesheet" href="resume.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #46709a">
@@ -25,8 +27,237 @@
                 </div>
             </div>
         </nav>
-        <h1>Resume</h1>
-
+        <h1 class="pageTitle">Resume</h1>
+        <h6 class="resumePDF"> <a href="./files/Resume_for_SamHatch.pdf" target="_blank">Open pdf Version</a></h6>
+        <div>
+            <p></p>
+            <table id="resumeHeader" class="resume">
+                <tr>
+                    <td rowspan="5" class="fullname"><a id="fullname">Samuel B. Hatch</a></td>
+                </tr>
+                <tr>
+                    <td class="resumeHeader">Lehi, Utah</td>
+                </tr>
+                <tr>
+                    <td class="resumeHeader">801-369-5830</td>
+                </tr>
+                <tr>
+                    <td class="resumeHeader">samhatch@gmail.com</td>
+                </tr>
+                <tr>
+                    <td class="resumeHeader"><a href="https://www.linkedin.com/in/sbhatch" target="_blank">www.linkedin.com/in/sbhatch</a></td>
+                </tr>
+            </table>
+            <hr noshade></hr>
+            <table id="resumeSkills" class="resume">
+                <p class="resumeTableTitle">SKILLS</p>
+                <tr>
+                    <td>Math</td>
+                    <td>Python</td>
+                    <td>Tableau</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td>R</td>
+                    <td>Power BI</td>
+                </tr>
+                <tr>
+                    <td>Teaching/Mentoring</td>
+                    <td>SQL</td>
+                    <td>Bloomberg Terminal</td>
+                </tr>
+                <tr>
+                    <td>Financial Modeling</td>
+                    <td>Essbase</td>
+                    <td>Lean Six Sigma (Green Belt)</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                </tr>
+            </table>
+            <hr noshade></hr>
+            <table id="resumeEducation" class="resume">
+                <p class="resumeTableTitle">EDUCATION</p>
+                <tr>
+                    <td colspan="2">University of Alberta</td>
+                </tr>
+                <tr class="resumeDegree">
+                    <td>Masters of Science in Mathematical Finance</td>
+                    <td class="resumeDates">Graduated June 2009</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Master's Degree Project: "Pricing Options in Incomplete Markets Driven by L&#233;vy Processes".</li>
+                            <li>MBA courses in Accounting, Economics, Risk Management, and Investments.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">University of Houston</td>
+                </tr>
+                <tr class="resumeDegree">
+                    <td>Masters of Science in Mathematics</td>
+                    <td class="resumeDates">Graduated December 2004</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Master's Degree Project: Professor guided tutorials in Logic and Lattice Theory.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">Utah Valley University</td>
+                </tr>
+                <tr class="resumeDegree">
+                    <td>Bachelors of Science in Mathematics</td>
+                    <td class="resumeDates">Graduated April 2003</td>
+                </tr>
+            </table>
+            <hr noshade></hr>
+            <table id="resumeWorkExperience" class="resume">
+                <p class="resumeTableTitle">WORK EXPERIENCE</p>
+                <tr>
+                    <td colspan="2">Upwell Health</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Lead Business Intelligence Developer</td>
+                    <td class="resumeDates">March 2019 to July 2019</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Cloud Infrastructure (AWS): Worked with Amazon Web Services S3, EC2, and RDS instances to develop a new data warehouse.</li>
+                            <li>Python Programming: Built multiple web scraping scripts to collect data from partner sites for ETL purposes; built a script to automatically update a screenshot of a Power BI report for company-wide display.</li>
+                            <li>Microsoft Dynamics CRM: Created ETL processes in SSIS to pull data from CRM into our new data warehouse in RDS.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">Woodside Homes</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Senior Business Intelligence Developer</td>
+                    <td class="resumeDates">November 2017 to March 2019</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Built Excel based forecasting model that is used for forecasting at the Community, Division, and Company level.</li>
+                            <li>Experience with new Microsoft products including Power BI, Graph API, Power Apps, adn Flow.</li>
+                            <li>Administrator for legacy Oracle Essbase cube and the newly implemented Essbase cube.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">People's United Bank</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Quantitative Analyst/Developer</td>
+                    <td class="resumeDates">February 2017 to May 2019</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Working with traders to create a front office systme for pricing, trading analysis, automation, alerts, and monthly reports.</li>
+                            <li>Creating tools to work with real-time data in Bloomberg, Mysis, and OPICS.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">People's United Bank</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Quantitative Analyst/Trader</td>
+                    <td class="resumeDates">July 2015 to October 2016</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Created an automated process for pre-payment fees with which was used to calculate pre-payments that were not submitted as well as partial pre-payments reallocating over $1MM of revenue to the profit center in the first 4 months of implementation.</li>
+                            <li>Trader with $100MM notional limit per trade on interest rate derivatives and USD $20MM notional limit per trade on FX derivatives.</li>
+                            <li>Created multiple Excel tools to assist in automating manual processes involved with trades, lining to Bloomberg data, pricing FX deals, documentation of trades, automation of pre-payments, and calculating internal rates.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">Woodside Homes</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Senior Financial Analyst/Developer</td>
+                    <td class="resumeDates">September 2014 to July 2015</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Implemented error tracking for all financial data loads and built a table with a data load status summary.</li>
+                            <li>Reduced data load time from 11 hours to 2 hours by rewriting the SQL stored procedures to run more efficiently.</li>
+                            <li>Designed and built in Tableau executive and operational dashboards.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">The Hartford</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Senior Financial Analyst; Risk Analyst; Associate Risk Analyst</td>
+                    <td class="resumeDates">July 2009 to March 2014</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Actuarial Summer Intern</td>
+                    <td class="resumeDates">May 2008 to August 2008</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Developed the simulated hedging process for forecasting, improving run time from 1 week to 3 hours; modeled various hedging strategies and derivatives including bonds, options, and FX.</li>
+                            <li>Ran the simulated heding model for asset exposure (US Variable Annuities).</li>
+                            <li>Ran the Japan and UK liability modles in MoSes and US hedging models for the variable annuity quarterly forecasting.</li>
+                            <li>Managed an Actuarial Student.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">University of Alberta</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Teaching Assistant</td>
+                    <td class="resumeDates">September 2007 to May 2009</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Statistics Lab Instructor.</li>
+                            <li>Grader for theory of interest course.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <td colspan="2"><hr noshade></hr></td>
+                <tr>
+                    <td colspan="2">Utah Valley University</td>
+                </tr>
+                <tr class="resumeWorkTitle">
+                    <td>Adjunct Instructor (Developmental Mathematics Department)</td>
+                    <td class="resumeDates">May 2006 to August 2007</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>Taught Math 1010 (Prerequisite for College Algebra).</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        <div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,0 +1,78 @@
+$color-background:#e0f7ff;
+$color-font:#46709a;
+$color-category-border:black;
+$color-sports-font:forestgreen;
+$color-sports-back:lightgreen;
+$color-tv-font:navy;
+$color-tv-back:skyblue;
+$color-youtube-font:red;
+$color-youtube-back:white;
+
+%categories{
+    border: 2px solid $color-category-border;
+    margin: 1.5%;
+    padding: 1%;
+}
+
+.sports{
+    @extend %categories;
+    color: $color-sports-font;
+    background-color: $color-sports-back;
+}
+
+.tv{
+    @extend %categories;
+    color: $color-tv-font;
+    background-color: $color-tv-back;
+}
+
+.youtube{
+    @extend %categories;
+    color: $color-youtube-font;
+    background-color: $color-youtube-back;
+}
+
+div {
+    h1 {
+        background-color:$color-background;
+        color:$color-font;
+        margin:0%;
+        padding:1%;
+    }
+
+    p {
+        margin:5px;
+        padding:1px;
+        background-color:90cdc3;
+        color:#46709a;
+        border: 1pt solid #46709a;
+    }
+
+    div {
+        h3 {
+            margin:10px;
+            padding:5px;
+            border: 2pt solid black;
+        }
+
+        h5 {
+            margin-left:30px;
+            margin-bottom:2px;
+            padding:5px;
+        }
+
+        p{
+            margin-left:50px;
+            margin-top:0px;
+            margin-bottom:1px;
+            padding:1px;
+            background-color:white;
+            color:black;
+            border: 0pt solid black;
+        }
+
+        div{
+            margin-bottom:50px;
+        }
+    }
+}
